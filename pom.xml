@@ -16,6 +16,7 @@
         <module>MarketAnalysis</module>
     </modules>
 
+--     jjsdij
 
     <properties>
         <flink.version>1.7.2</flink.version>
