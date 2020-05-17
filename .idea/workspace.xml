@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="acb23591-bb88-42fc-84a7-8fa9c7668873" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginFailDetect/LoginFailDetect.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MarketAnalysis/MarketAnalysis.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkTrafficAnlysis/NetworkTrafficAnlysis.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OrderTimeoutDetect/OrderTimeoutDetect.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserBehaviorAnalysis.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="acb23591-bb88-42fc-84a7-8fa9c7668873" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/HotItemsAnalysis/target/" />
     <ignored path="$PROJECT_DIR$/MarketAnalysis/target/" />
     <ignored path="$PROJECT_DIR$/LoginFailDetect/target/" />
@@ -28,8 +20,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            <state relative-caret-position="329">
+              <caret line="92" column="10" lean-forward="true" selection-start-line="92" selection-start-column="10" selection-end-line="92" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -149,15 +141,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1589702285479</updated>
-      <workItem from="1589702288533" duration="1007000" />
+      <workItem from="1589702288533" duration="1253000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1007000" />
+    <option name="totallyTimeSpent" value="1253000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="7" />
@@ -199,8 +192,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        <state relative-caret-position="329">
+          <caret line="92" column="10" lean-forward="true" selection-start-line="92" selection-start-column="10" selection-end-line="92" selection-end-column="10" />
         </state>
       </provider>
     </entry>
