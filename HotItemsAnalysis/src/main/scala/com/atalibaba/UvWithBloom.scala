@@ -53,7 +53,7 @@ class MyTrigger() extends Trigger[(String, Long), TimeWindow] {
 
     override def onProcessingTime(l: Long, w: TimeWindow, triggerContext: Trigger.TriggerContext): TriggerResult = TriggerResult.CONTINUE
 
-    ]
+
 
     override def onEventTime(l: Long, w: TimeWindow, triggerContext: Trigger.TriggerContext): TriggerResult = TriggerResult.CONTINUE
 

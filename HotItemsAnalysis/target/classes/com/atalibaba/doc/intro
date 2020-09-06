@@ -1,0 +1,15 @@
+topN功能是一个非常常见的功能，比如查看最近几分钟的阅读最高数，购买最高数。
+
+　　flink实现topN的功能也非常方便，下面就开始构建一个flink topN的程序。
+
+　　还是像上篇博客一样，从kafka读取数据，然后进行计算和数据转换，最后sink到mysql中。
+
+　　假设有个需求，实现一个统计每5分钟最高购买数的商品。
+
+CREATE TABLE `itembuycount` (
+  `id` mediumint NOT NULL auto_increment,
+  `itemId` bigint(255) NOT NULL,
+  `buyCount` bigint(11) DEFAULT NULL,
+  `createDate` timestamp NULL DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci
