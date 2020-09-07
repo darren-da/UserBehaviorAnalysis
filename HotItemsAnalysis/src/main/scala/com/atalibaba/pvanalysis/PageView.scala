@@ -30,7 +30,7 @@ object PageView {
             .filter(_.behavior == "pv") //元素的behavior等于pv
             .map(x => ("pv", 1)) // 来一个数据就转换为一个  ("pv",1)的二元粗  《类似于wordcount》
             .keyBy(_._1) // 利用pv（亚key）
-            .timeWindow(Time.seconds(60 * 60))
+            .timeWindow(Time.seconds(5))
             .sum(1)
             .print("PV:")
 
